@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbar_Search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolbar_get"
+        android:title="扫描本地"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/toolbar_exit"
+        android:title="退出用户"
+        app:showAsAction="never"/>
+</menu>

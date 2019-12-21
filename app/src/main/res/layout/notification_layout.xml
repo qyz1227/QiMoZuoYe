@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EEB422">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/notification_title"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:text="歌名"
+            android:textSize="15sp"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/notification_delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_delete"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/notification_previous"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_previous"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/notification_start"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_pause"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/notification_next"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_next"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
